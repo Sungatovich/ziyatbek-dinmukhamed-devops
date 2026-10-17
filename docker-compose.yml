@@ -1,0 +1,8 @@
+
+services:
+  app:
+    build: .
+    image: ziyatbek-dinmukhamed-devops:latest
+    container_name: ziyatbek-dinmukhamed-container
+    restart: "no"
+
