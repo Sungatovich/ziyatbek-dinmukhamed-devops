@@ -5,7 +5,8 @@ from datetime import datetime
 def get_status():
     """Return a simple application status."""
     return {
-        "status": "running",
+        "environment": "development",
+	"status": "running",
         "project": "ziyatbek_dinmukhamed",
         "timestamp": datetime.now().isoformat(timespec="seconds"),
     }
