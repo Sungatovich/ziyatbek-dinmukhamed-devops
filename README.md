@@ -1,26 +1,20 @@
-
-# DevOps Lab 1
+# Ziyatbek Dinmukhamed — DevOps Lab
 
 **Student:** Ziyatbek Dinmukhamed  
 **Group:** IT2-2310  
 **Student ID:** 38237
 
-## Project Description
-
-This project demonstrates basic DevOps skills using Linux,
-Bash scripting, Git, Docker, and Jenkins.
+## Project Overview
+This project demonstrates Linux scripting, Python development, unit testing, Git branching, Docker, and Docker Compose.
 
 ## Project Structure
-
-- `app/` — application source code
+- `scripts/` — Linux system information script
+- `app/` — Python application
 - `config/` — application configuration
-- `docs/` — project documentation
-- `logs/` — application logs
-- `scripts/` — Bash scripts
-- `tests/` — application tests
+- `tests/` — unit tests
+- `Dockerfile` — Docker image configuration
+- `docker-compose.yml` — Docker Compose configuration
 
-## Linux Script
-
-The system information script displays the current user,
-hostname, operating system, disk usage, and memory usage.
-
+## Run the Application
+```bash
+python3 app/app.py
